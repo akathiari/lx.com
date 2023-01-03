@@ -1,0 +1,444 @@
+@font-face {
+    font-family: "Raleway";
+    font-weight: normal;
+    src: url('../../fonts/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: "Raleway";
+    font-weight: bold;
+    src: url('../../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-style: italic;
+    src: url('../../fonts/Raleway-BoldItalic.ttf');
+}
+@font-face {
+    font-family: "Raleway";
+    font-style: italic;
+    src: url('../../fonts/Raleway-Italic.ttf');
+}
+@font-face {
+    font-family: "Raleway";
+    font-weight: 100;
+    src: url('../../fonts/Raleway-Light.ttf');
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Theme Color File*/
+a,
+.thm-clr,
+.main-menu .navigation > li:hover > a, 
+.main-menu .navigation > li.current > a{
+	color:#46c3e8;
+}
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a {
+    color:#994F99;
+}
+
+
+
+
+/*Background Color*/
+.thm-bg-clr,
+.search-box{
+    background-color:#699FB5;
+}
+.slide-content .btns-box .thm-bg-clr:first-child {
+    background-color: #75326F;
+}
+.slide-content .btns-box .thm-bg-clr {
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Rgba Background color **/
+
+@media only screen and (max-width: 991px){
+/* Background Color */    
+.main-menu .navbar-collapse > .navigation > li > a,
+.main-menu .navbar-collapse > .navigation > li > ul > li > a{
+    background-color:#46c3e8;
+}
+    
+.main-menu .navbar-collapse > .navigation > li > a:hover,
+.main-menu .navbar-collapse > .navigation > li > a:active,
+.main-menu .navbar-collapse > .navigation > li > a:focus,
+.main-menu .navbar-collapse > .navigation > li.current > a,
+.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
+    background: #0f1341;    
+}    
+    
+/* Border Color */        
+.main-menu .navbar-collapse > .navigation > li,
+.main-menu .navbar-collapse > .navigation > li > ul > li,    
+.main-menu .navbar-collapse > .navigation > li:last-child,
+.main-menu .navbar-collapse > .navigation > li > ul > li:last-child{
+    border-color: #28abd2;        
+}    
+
+    
+}
+
+.breadcrumb-area {
+    color: white;
+}
+
+.overlay-style-one,
+.parallax-bg-one::before,
+.footer-top-area .single-box,
+.breadcrumb-area::before{
+    background: #4F99B2;
+}
+.breadcrumb-area .float-right{
+    max-width: 50%;
+}
+.breadcrumb-area h1 {
+    text-transform: uppercase;
+}
+#roles, #tags, #competencies {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+#roles, #tags, #competencies {
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: stretch;
+}
+.btn.btn-warning {
+    color: white;
+    background-color: #4f99b2;
+    border: none;
+}
+#roles .btn, #tags .btn, #competencies .btn {
+    min-height: 32px;
+    flex: 0 0 49%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 8px;
+    /*margin-right: 8px;*/
+    line-height: 18px;
+    white-space: normal;
+}
+#list > div {
+    border-radius: 8px;
+    background-color: #f2f2f2;
+}
+#list h3 {
+    background-color: #003479;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px 8px 0 0;
+}
+#list #trainings {
+    height: 450px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#list .wrapper {
+    height: 402px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#list .item {
+    line-height: normal;
+    cursor: pointer;
+}
+.fc-content {
+    color: white;
+}
+.did-you-know {
+    color: white;
+}
+.did-you-know .about-left-box .thm-bg-clr,
+.did-you-know .about-left-box .search-box {
+    background-color: rgb(245, 172, 37);
+    width: 100%;
+}
+.did-you-know{
+    padding-top: 90px;
+    padding-bottom: 50px;  
+}
+.did-you-know.parallax-bg-one:before{
+    background: rgba(153, 79, 153, 0.95);    
+}
+.did-you-know.parallax-bg-one {
+    background-color: #994F99;
+}
+.did-you-know.parallax-bg-one .sec-title .title {
+    color: white;
+}
+.did-you-know #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; 
+    z-index: -1;
+}
+.path-logo {
+    width: 129px;
+    height: 115px;
+    background-image: url('../../images/path-icon-13-2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page-info {
+    max-width: 50%;
+}
+.breadcrumb-area .flex-box-two > * {
+    align-self: center;
+}
+.did-you-know .sec-title {
+    padding-bottom: 20px;
+}
+.did-you-know .title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.did-you-know h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    font-size: larger;
+    margin-bottom: 1em;
+}
+.did-you-know .book-title {
+    color: #ffc107;
+    font-weight: bold;
+}
+.did-you-know .book-description {
+    margin-bottom: 1em;
+}
+.did-you-know .book-info {
+    flex: 0 0 calc(100% - 100px);
+}
+.did-you-know .book-picture {
+    height: 140px;
+    flex: 0 0 100px;
+    background-color: #f2f2f2;
+}
+.reading-list .person-list .book-testimonial-carousel .book-title {
+    color: #75326F;
+    font-weight: bold;
+}
+.reading-list .person-list .book-testimonial-carousel .testimonial-block-one {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 8px;
+}
+.reading-list .person-list .book-testimonial-carousel .testimonial-block-one,
+.reading-list .person-list .book-testimonial-carousel .testimonial-block-one > div {
+    text-align: center;
+}
+.reading-list .person-list .book-testimonial-carousel .testimonial-block-one .book-description {
+    font-size: smaller;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.reading-list .person-list .book-testimonial-carousel .testimonial-block-one .btn {
+    width: 70%;
+    align-self: center;
+}
+.reading-list .person-list .book-testimonial-carousel .book-picture {
+    height: 100px;
+    width: 80px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.reading-list .owl-carousel .owl-stage{display: flex;}
+.reading-list .owl-theme .owl-nav.disabled + .owl-dots {
+    position: relative;
+    margin-top: 27px;
+    margin-right: 338px;
+}
+.reading-list .owl-dots .owl-dot{
+	background-image:none;
+	width: 12px;
+	height: 12px;
+	margin: 5px 5px;
+    border: 3px solid #3f4267;
+	padding:0px;
+	background: #0f1341;
+	border-radius: 50%;
+	transition: all 500ms ease;
+	display: inline-block;
+}
+.reading-list .owl-dots .owl-dot span{
+	display:none;	
+}
+.reading-list .owl-dots .owl-dot.active{
+	background: #46c3e8;
+    border-color: #46c3e8;
+}
+.reading-list .owl-nav .owl-prev, .reading-list .owl-nav .owl-next {
+    background-color: #994F99;
+    color: white;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+}
+.reading-list .owl-nav .owl-prev {
+    left: -40px;
+}
+.reading-list .owl-nav .owl-next {
+    right: -40px;
+}
+
+.person-list .row:nth-child(2n):not(:last-child) {
+    border-bottom: 2px solid #ffc107;
+}
+.about-area .about-right-box .sec-title .title {
+    height: 46px;
+    background-image: url('../../images/teams.png');
+    background-size: auto 70px;
+    background-position: -18px -12px;
+    background-repeat: no-repeat;
+}
+.cyp {
+    height: 60px;
+    background-image: url('../../images/cyp2.png');
+    background-size: auto 58px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.its-your-path {
+    margin-bottom: 3em;
+}
+.mrl {
+    height: 72px;
+    background-image: url('../../images/mrl2.png');
+    background-size: auto 70px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+}
+.reading-list .person-list .row:nth-child(n-1) {
+    margin-bottom: 2em;
+}
+.profile-photo {
+    float: left;
+}
+.profile-details {
+    float: left;
+    padding-left: 10px;
+}
+.profile-name {
+    color: #994F99;
+    font-size: 2em;
+    font-weight: bold;
+}
+.profile-competency {
+    color: rgb(79, 153, 178);
+}
+.profile-role {
+    font-style: italic;
+    font-size: smaller;
+    line-height: normal;
+}
+.team-list {
+    margin-top: 2em;
+}
+.team-list .person-list .our-team-carousel .person-name {
+    color: #75326F;
+    font-weight: bold;
+}
+.team-list .person-list .our-team-carousel .testimonial-block-one,
+.team-list .person-list .our-team-carousel .testimonial-block-one > div {
+    text-align: center;
+}
+.team-list .person-list .our-team-carousel .testimonial-block-one .book-description {
+    font-size: smaller;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.team-list .person-list .our-team-carousel .person-photo {
+    height: auto;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.team-list .owl-theme .owl-nav.disabled + .owl-dots {
+    position: relative;
+    margin-top: 27px;
+    margin-right: 338px;
+}
+.team-list .owl-dots .owl-dot{
+	background-image:none;
+	width: 12px;
+	height: 12px;
+	margin: 5px 5px;
+    border: 3px solid #3f4267;
+	padding:0px;
+	background: #0f1341;
+	border-radius: 50%;
+	transition: all 500ms ease;
+	display: inline-block;
+}
+.team-list .owl-dots .owl-dot span{
+	display:none;	
+}
+.team-list .owl-dots .owl-dot.active{
+	background: #46c3e8;
+    border-color: #46c3e8;
+}
+.team-list .owl-nav .owl-prev, .team-list .owl-nav .owl-next {
+    background-color: #994F99;
+    color: white;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+}
+.team-list .owl-nav .owl-prev {
+    left: -40px;
+}
+.team-list .owl-nav .owl-next {
+    right: -40px;
+}
+.team-list .sec-title .title {
+    color: rgb(126, 46, 122);
+}
