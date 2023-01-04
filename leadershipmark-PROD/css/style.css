@@ -820,11 +820,12 @@ select:focus {
     opacity: 1;
     background: #994F99;
 }
+
 .main-menu .navigation li:hover a:before,
 .main-menu .navigation li.current a:before{
     width: 30%;    
 }
-.main-menu .navigation li a:after {
+.main-menu .navigation li a:after{
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -837,6 +838,7 @@ select:focus {
     opacity: 1;
     background: #994F99;
 }
+
 .main-menu .navigation li:hover a:after,
 .main-menu .navigation li.current a:after{
     width: 30%;    
@@ -847,11 +849,21 @@ select:focus {
  
 }
 
+/* LW added text-align:center, width:100% */
+
+.main-menu .navigation > li > ul > a:hover {
+    font-size: 20px;
+    color: white;
+}
+.main-menu .navigation > li > ul > a {
+    /* font-size: 20px; */
+    color: white;
+}
 .main-menu .navigation > li > ul {
     position: absolute;
     left: 0px;
     top: 110%;
-    width: 270px;
+    width: 100%;
     background: #0f1341;
     padding: 0 20px;
     z-index: 100;
@@ -860,6 +872,26 @@ select:focus {
     transition: all 500ms ease;
     display: block;
     border-bottom: 2px solid #46c3e8;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 991px){
+    .main-menu .navigation > li > ul {
+        position: absolute;
+        left: 0px;
+        top: 110%;
+        width: 100%;
+        background: #0f1341;
+        padding: 0 20px;
+        z-index: 100;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 500ms ease;
+        display: block;
+        border-bottom: 2px solid #46c3e8;
+        text-align: left;
+        color: white;
+    }
 }
 .main-menu .navigation > li:hover > ul {
     top: 90%;

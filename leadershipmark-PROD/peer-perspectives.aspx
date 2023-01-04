@@ -87,8 +87,14 @@
                                     <li><a href="self-directed-learning.aspx">Leadership Resources</a></li>
                                     <li class=""><a href="live-classes.aspx">Classes</a></li>
                                     <li class="current"><a href="peer-perspectives.aspx">Peer Reading List</a></li>
-                                    <li class=""><a href="commercial-strategy-operations.aspx">New Leader Onboarding</a></li>
-                                </ul>
+                                    <li class="">
+                                        <a href="commercial-strategy-operations.aspx">New Leader Onboarding</a>
+                                    <ul>
+                                        <a  href="https://jnj.sharepoint.com/teams/EMEAOperationalExcellence/LeadershipMark/SitePages/DM.aspx">DM</a>
+                                        <a  href="https://jnj.sharepoint.com/teams/EMEAOperationalExcellence/LeadershipMark/SitePages/NSD.aspx">NSD</a>
+                                        <a  href="https://jnj.sharepoint.com/teams/EMEAOperationalExcellence/LeadershipMark/SitePages/RBD.aspx">RBD</a>
+                                    </ul>
+                                    </li>                                </ul>
                             </div>
                         </nav>
                         <!--End mainmenu-->    
